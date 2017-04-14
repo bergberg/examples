@@ -1,0 +1,15 @@
+---
+title: "Autoregression"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(Quandl)
+`%$%` <- magrittr::`%$%`
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Autoregression
+Here we'll show an example of using autoregression to analyse timeseries. For no particular reason we'll look at bitcoin-dollar exchange rates and we'll get the data using quandl.
+
